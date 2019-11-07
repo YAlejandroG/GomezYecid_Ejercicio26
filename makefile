@@ -1,8 +1,8 @@
-ejecutar : clase25.x
-	./clase25.x 
+ejecutar : clase26.x
+	./clase26.x 
 
-clase25.x : clase25.cpp
-	c++ clase25.cpp -o clase25.x
+clase26.x : clase26.cpp
+	c++ clase26.cpp -o clase26.x
 	
 clean : 
-	rm clase25.x clase25.dat
+	rm clase25.x multiplicados.dat arreglo.dat
