@@ -48,8 +48,10 @@ int multiplicar(string nombre,float *array1,float *array2,int n){
     ofstream outfile;
     outfile.open(nombre);
     /*El ciclo recorre los array y multiplica posicion por posición*/
+    float mul;
     for(int i=0;i<n;i++){
-        outfile<<array1[i]*array2[i]<<endl;
+        mul = array1[i]*array2[i];
+        outfile<<mul<<endl;
     }
     outfile.close(); 
   
